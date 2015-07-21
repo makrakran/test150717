@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+	font-size: 100%;
+}
+#container {
+    margin: 0 auto;
+	position:relative;
+	overflow:hidden;
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	color:#333;
+	text-decoration:none;
+}
+
+/* ===============================================
+	header
+=============================================== */
+
+
+
+/* ===============================================
+	contents
+=============================================== */
+
+
+
+/* ===============================================
+	footer
+=============================================== */
+
+
+/* ===============================================
+	others
+=============================================== */
+.clear{
+	clear:both;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+@media screen and (max-width:1400px){
+}
+
+
+@media screen and (max-width:1000px){
+}
+
+
+@media screen and (max-width:740px){
+}
