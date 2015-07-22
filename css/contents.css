@@ -4,3 +4,23 @@ body{
 
 #container{
 }
+header{
+	background:#C00;
+	padding:20px;
+}
+h1{
+	background:#CCC;
+}
+section{
+	background:#CC3;
+	padding:20px;
+}
+article{
+	background:#69F;
+}
+aside{
+	background:#CCC;
+}
+footer{
+	background:#FCC;
+}
