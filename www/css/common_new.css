@@ -1,0 +1,285 @@
+#sp{
+	display:none;
+}
+
+#PageFotterContactAreaTop_new{
+	display:none;
+}
+
+@media screen and (max-width:980px) {
+
+/********************* NAVI **********/
+#GlobalNavi2 {
+	height: auto;
+	/*background:url(../images/common/GlobalNaviBG.png) repeat-x;*/
+	background:none;
+}
+#GlobalNavi2 .menu {
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+}
+#GlobalNavi2 ul.menu li {
+	float:left;
+	z-index:100;
+	width:20%;
+}
+#GlobalNavi2 ul.menu li img{
+	width:100%;
+	height:auto !important;
+}
+#GlobalNavi2 ul.menu li ul.sub li{
+	width:220px !important;
+}
+
+/********************* HEADER **********/
+#HeaderContents {
+	width:100%;
+	position:relative;
+}
+#HeaderLogo {
+	width:230px;
+	padding:2px 0 0 20px !important;
+}
+#HeaderRemoteNavi {
+	float:right;
+	width:590px;
+}
+#HeaderRemoteNavi li {
+}
+#HeaderTel {
+	width:269px;
+	position:absolute;
+	right:35%;
+	top:40px;
+}
+#HeaderTel img{
+	width:100%;
+	height:auto;
+}
+
+#HeaderAction {
+	width:35%;
+	text-align:right;
+	padding-right:20px;
+	position:absolute;
+	right:0%;
+	top:40px;
+}
+#HeaderAction img{
+	height:41px;
+	width:auto;
+}
+/********************* CONTENTS **********/
+#BodyArea {
+	clear:both;
+	width:96%;
+	padding:0 2%;
+	margin:15px auto 0;
+}
+
+
+/**************** 下部バナーエリア ***********/
+#BannerTop {
+	float:none;
+	clear:both;
+	text-align:left;
+	margin:0;
+	background:#EEE;
+	padding:30px 0;
+}
+#BannerTop ul{
+	padding-top:0px;
+	clear:both;
+}
+#BannerTop li {
+    text-align: right;
+	float:left;
+	width:33%;
+}
+.SideBannerContact{
+	display:none;
+}
+.BannerCEO p {
+	margin:0;
+}
+.BannerCAI p {
+	margin:0 auto;
+	padding:0;
+	width:auto;
+	text-align:center;
+}
+.BannerGakken p {
+	border:none;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+.BannerGakken p img{
+	margin:0;
+	padding:10px;
+	width:auto;
+	display:block;
+	border:solid 2px #ccc;
+	background:#FFF;
+}
+
+
+/**************** 下部お問い合わせエリア ***********/
+#PageFotterContactAreaTop {
+	margin:0 auto 30px;
+	height:auto;
+}
+
+#PageFotterContactAreaTop{
+	display:none;
+}
+#PageFotterContactAreaTop_new {
+	display:block;
+	clear:both;
+	width:100%;
+	height:auto;
+	text-align:right;
+	position:relative;
+	margin-bottom:20px;
+}
+#PageFotterContactAreaTop_new .newbg{
+	width:100%;
+	height:auto;
+}
+#PageFotterContactAreaTop_new p{
+	margin-top:-60px;
+	padding-right:30px;
+}
+.TopFbBanner{
+	padding-top:10px;
+}
+
+
+/********************* FOOTER **********/
+#FotterContents {
+	width:99%;
+	margin:0 auto;
+}
+.FotterNavi {
+	width:17%;
+	margin:0 0px 0 0;
+	padding:0 3% 0 0;
+}
+.FotterNavi li {
+	width:100%;
+}
+
+}
+
+
+@media screen and (max-width:920px) {
+/********************* HEADER **********/
+#HeaderContents {
+	width:100%;
+	margin:0 auto;
+	padding:20px 0 0 0;
+	position:relative;
+}
+#HeaderLogo {
+	float:left;
+	width:210px;
+	padding:5px 0 0 0;
+	font-size:10px;
+}
+#HeaderRemoteNavi {
+	width:515px;
+	height:20px;
+}
+#HeaderRemoteNavi li {
+	float:left;
+	padding:0 10px 0 12px;
+}
+#HeaderTel {
+	width:220px;
+	right:37%;
+	top:43px;
+}
+
+#HeaderAction {
+	width:35%;
+	top:44px;
+}
+#HeaderAction img{
+	height:35px;
+}
+}
+
+
+
+@media screen and (max-width:760px) {
+#pc{
+	display:none;
+}
+#sp{
+	display:block;
+}
+#sp img{
+	width:100%;
+}
+#sp header{
+	margin-top:75px;
+}
+#sp header h1{
+	width:100%;
+	position:relative;
+	z-index:9999;
+	padding-left:2px;
+}
+
+
+#contents{
+	padding:0 10px;
+}
+
+/********************** 下部お問い合わせ及びバナー *******/
+#sp .contactouter{
+	background:url(../images/common/sp/sp_contact_bg02.png) repeat-y center top;
+	background-size: 100% 100%;
+	margin:40px auto 10px;
+}
+#sp .contact{
+	background:url(../images/common/sp/sp_contact_bg01.png) no-repeat center top;
+	background-size: 100% auto;
+	padding-top:9%;
+}
+#sp .contactinr{
+	background:url(../images/common/sp/sp_contact_bg03.png) no-repeat center bottom;
+	background-size: 100% auto;
+	padding:0 10px 5px;
+}
+#sp .contact a.btn{
+	display:block;
+	padding:5px 0;
+}
+#sp .footbnr{
+	margin-top:10px;
+}
+#sp .footbnr a{
+	float:left;
+	width:48%;
+	margin:1%;
+}
+
+#sp footer{
+	background:#289233;
+	margin-top:50px;
+}
+#sp footer a{
+	border-bottom:2px #FFF solid;
+	display:block;
+	color:#FFF;
+	padding:10px 15px;
+}
+#sp footer p{
+	color:#FFF;
+	text-align:center;
+	padding:17px 0;
+}
+
+}

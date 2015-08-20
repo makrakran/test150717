@@ -1,0 +1,196 @@
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.TopFbBanner{
+	padding-top:20px;
+}
+
+@media screen and (max-width:980px) {
+/********************* CONTENTS **********/
+#BodyFeatureArea2 {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+#BodyFeature2 {
+    clear: both;
+    margin: 10px auto 0;
+    text-align: left;
+	width:100%;
+}
+#BodyFeature2 li {
+	float:left;
+	width:32%;
+	margin:0 2% 0 0;
+	background:url(../images/top/BodyFeatureBG.png) no-repeat;
+	background-size: 100% 100%;
+}
+#BodyFeature2 li.Last {
+	margin:0;	
+}
+
+#Topics {
+	width:49%;
+	margin:20px 1% 10px 0;
+}
+#Open {
+	width:49%;
+	margin:20px 0 10px 1%;
+}
+/*
+#image-navigation .navi{
+	display:none;
+}
+#image-navigation {
+	height:305px;
+}
+*/
+/********************* スライドエリア **********/
+#image-navigation {
+	width:100% !important;
+	overflow:hidden;
+}
+#image-navigation .gallery{
+	width:73.5%;
+	margin-right:1%;
+}
+#image-navigation .gallery img{
+	width:100%;
+	height:auto;
+}
+#image-navigation .navi{
+	width:25.5%;
+}
+#image-navigation .navi ul li a{
+	width:100%;
+}
+#image-navigation .navi ul li img{
+	width:100%;
+	height:auto !important;
+}
+}
+
+
+@media screen and (max-width:740px) {
+#Topics img{
+	width:100%;
+	height:auto !important;
+}
+}
+
+
+
+@media screen and (max-width:760px) {
+#pc{
+	display:none;
+}
+#sp{
+	display:block;
+}
+/*============================
+#top_slider_wrap
+============================*/
+
+#top_slider_wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flexslider {
+    margin: 0 0 32px !important;
+}
+
+.flex-control-nav {
+    bottom: -20px !important;
+}
+
+.flex-control-paging li a {
+    background-image: url("../images/top/sp/btn_empty.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.flex-control-paging li a:hover {
+    background-image: url("../images/top/sp/btn_current.png");
+}
+
+.flex-control-paging li a.flex-active {
+    background-image: url("../images/top/sp/btn_current.png");
+}
+
+.top3kakomi {
+	background:url(../images/top/sp/bg02_foot.png) no-repeat center bottom;
+	background-size: 100% auto;
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+.top3kakomi h2{
+	background:url(../images/top/sp/mds_bg01.png) no-repeat;
+	background-size: 100% 100%;
+	color:#249241;
+	font-size:130%;
+	font-weight:bold;
+	padding:10px 15px;
+}
+.top3kakomi h2 span{
+	font-size:70%;
+	display:block;
+}
+.top3kakomi p{
+	background:url(../images/top/sp/bg02.png) repeat-y;
+	background-size: 100% 100%;
+	padding:10px 15px;
+}
+.top3kakomi p.green{
+	color:#269233;
+}
+.top3kakomi p img{
+	width:100%;
+	display:block;
+	margin:0 auto 10px;
+}
+.top3kakomi p a{
+	text-align:right;
+	display:block;
+	margin:10px 0 0;
+}
+#sp h3{
+	font-size:160%;
+	font-weight:bold;
+	border-bottom:#289233 3px solid;
+	margin:20px auto 5px;
+}
+#sp h3 span{
+	font-size:60%;
+	margin-left:10px;
+}
+#sp div.btn{
+	background:url(../images/top/sp/sp_btn_bg.png) no-repeat;
+	background-size:100% 100%;
+	margin:5px 0;
+	padding-right:10px;
+}
+#sp div.btn a{
+	display:block;
+	background:url(../images/top/sp/sp_btn_icon.png) no-repeat center right;
+	background-size: 20px 20px;
+	color:#FFF;
+	font-size:120%;
+	padding:8px 10px;
+	font-weight:bold;
+}
+}
