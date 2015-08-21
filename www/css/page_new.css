@@ -130,7 +130,7 @@ p.Visual img{
 /******************* /右カラム *****/
 
 
-
+/*********************** 学研CAIで独立 ***********/
 .CotegoryPage #BodyAreaLeft .Box {
 	width:96%;
     padding: 10px 2% 15px;
@@ -139,10 +139,12 @@ p.Visual img{
     margin: -10px -2% 15px;
 }
 .AboutCai.CotegoryPage #BodyAreaLeft .TextLeft {
-    display: block;
-    float: left;
     width: 63%;
     margin: 0px 0 0 0;
+}
+.SystemSupport.CotegoryPage #BodyAreaLeft .TextLeft {
+    width: 63%;
+    margin: 0px 0px 0 0;
 }
 
 
@@ -227,6 +229,16 @@ p.Visual img{
 	color:#228048;
 	display:block;
 	border-bottom:solid 4px #228048;
+}
+
+.SystemSupport h2 {
+    padding: 0px 0 5px 0;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #228048;
+    display: block;
+    border-bottom: solid 4px #228048;
 }
 
 /*********************** 学研CAIで独立 > 独立するメリット > コンテンツ部囲み ***********/
